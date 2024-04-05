@@ -1,0 +1,68 @@
+.button-container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 0 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 15px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(42, 9, 161);
+}
+
+/* Classes específicas para cada marca */
+.Ferrari {
+  background-color: rgb(67, 108, 197);
+}
+
+.Lamborghini {
+  background-color: rgb(67, 108, 197);
+}
+
+.Bugatti {
+  background-color:rgb(67, 108, 197);
+}
+
+.McLaren {
+  background-color: rgb(67, 108, 197);
+}
+
+.AstonMartin {
+  background-color: rgb(67, 108, 197);
+}
+
+.Porsche {
+  background-color: rgb(67, 108, 197);
+}
+
+.Koenigsegg {
+  background-color: rgb(67, 108, 197);
+}
+
+.Pagani {
+  background-color:rgb(67, 108, 197);
+}
+
+.Maserati {
+  background-color: rgb(67, 108, 197);
+  color: white;
+}
+
+.Bentley {
+  background-color:rgb(67, 108, 197);
+  color: white;
+}
